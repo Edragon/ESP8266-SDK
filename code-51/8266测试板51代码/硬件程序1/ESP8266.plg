@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\Ó²¼þ³ÌÐò1\ESP8266.uvproj
+Project File Date:  11/12/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(120): error C141: syntax error near '.'
+Target not created
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(120): error C141: syntax error near '.'
+main.c - 1 Error(s), 1 Warning(s).
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(120): error C141: syntax error near '.'
+main.c - 1 Error(s), 1 Warning(s).
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(120): error C141: syntax error near '.'
+main.c - 1 Error(s), 1 Warning(s).
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+STC15FXXXX.H(539): warning C322: unknown identifier
+STC15FXXXX.H(541): warning C322: unknown identifier
+STC15FXXXX.H(543): warning C322: unknown identifier
+STC15FXXXX.H(545): warning C322: unknown identifier
+STC15FXXXX.H(547): warning C322: unknown identifier
+STC15FXXXX.H(549): warning C322: unknown identifier
+STC15FXXXX.H(551): warning C322: unknown identifier
+MAIN.C(121): error C141: syntax error near '.'
+main.c - 1 Error(s), 8 Warning(s).
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+STC15FXXXX.H(539): warning C322: unknown identifier
+STC15FXXXX.H(541): warning C322: unknown identifier
+STC15FXXXX.H(543): warning C322: unknown identifier
+STC15FXXXX.H(545): warning C322: unknown identifier
+STC15FXXXX.H(547): warning C322: unknown identifier
+STC15FXXXX.H(549): warning C322: unknown identifier
+STC15FXXXX.H(551): warning C322: unknown identifier
+MAIN.C(121): error C141: syntax error near '.'
+main.c - 1 Error(s), 8 Warning(s).
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+STC15FXXXX.H(539): warning C322: unknown identifier
+STC15FXXXX.H(541): warning C322: unknown identifier
+STC15FXXXX.H(543): warning C322: unknown identifier
+STC15FXXXX.H(545): warning C322: unknown identifier
+STC15FXXXX.H(547): warning C322: unknown identifier
+STC15FXXXX.H(549): warning C322: unknown identifier
+STC15FXXXX.H(551): warning C322: unknown identifier
+main.c - 0 Error(s), 8 Warning(s).
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+STC15FXXXX.H(539): warning C322: unknown identifier
+STC15FXXXX.H(541): warning C322: unknown identifier
+STC15FXXXX.H(543): warning C322: unknown identifier
+STC15FXXXX.H(545): warning C322: unknown identifier
+STC15FXXXX.H(547): warning C322: unknown identifier
+STC15FXXXX.H(549): warning C322: unknown identifier
+STC15FXXXX.H(551): warning C322: unknown identifier
+main.c - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+STC15FXXXX.H(539): warning C322: unknown identifier
+STC15FXXXX.H(541): warning C322: unknown identifier
+STC15FXXXX.H(543): warning C322: unknown identifier
+STC15FXXXX.H(545): warning C322: unknown identifier
+STC15FXXXX.H(547): warning C322: unknown identifier
+STC15FXXXX.H(549): warning C322: unknown identifier
+STC15FXXXX.H(551): warning C322: unknown identifier
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UARTSENDBYTE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_DELAY2?MAIN
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?UART1_INT?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_DELAY1?MAIN
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?UART1_INT?MAIN
+Program Size: data=41.1 xdata=137 code=2462
+creating hex file from "ESP8266"...
+"ESP8266" - 0 Error(s), 11 Warning(s).
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+STC15FXXXX.H(538): warning C322: unknown identifier
+STC15FXXXX.H(540): warning C322: unknown identifier
+STC15FXXXX.H(542): warning C322: unknown identifier
+STC15FXXXX.H(544): warning C322: unknown identifier
+STC15FXXXX.H(546): warning C322: unknown identifier
+STC15FXXXX.H(548): warning C322: unknown identifier
+STC15FXXXX.H(550): warning C322: unknown identifier
+main.c - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+STC15FXXXX.H(538): warning C322: unknown identifier
+STC15FXXXX.H(540): warning C322: unknown identifier
+STC15FXXXX.H(542): warning C322: unknown identifier
+STC15FXXXX.H(544): warning C322: unknown identifier
+STC15FXXXX.H(546): warning C322: unknown identifier
+STC15FXXXX.H(548): warning C322: unknown identifier
+STC15FXXXX.H(550): warning C322: unknown identifier
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UARTSENDBYTE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_DELAY2?MAIN
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?UART1_INT?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_DELAY1?MAIN
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?UART1_INT?MAIN
+Program Size: data=41.1 xdata=137 code=2462
+creating hex file from "ESP8266"...
+"ESP8266" - 0 Error(s), 11 Warning(s).

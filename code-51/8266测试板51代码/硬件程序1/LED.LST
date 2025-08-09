@@ -1,0 +1,57 @@
+C51 COMPILER V9.00   LED                                                                   11/12/2014 09:15:45 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE LED
+OBJECT MODULE PLACED IN LED.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE LED.C BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include        "STC15Fxxxx.H"
+*** WARNING C322 IN LINE 539 OF STC15Fxxxx.H: unknown identifier
+*** WARNING C322 IN LINE 541 OF STC15Fxxxx.H: unknown identifier
+*** WARNING C322 IN LINE 543 OF STC15Fxxxx.H: unknown identifier
+*** WARNING C322 IN LINE 545 OF STC15Fxxxx.H: unknown identifier
+*** WARNING C322 IN LINE 547 OF STC15Fxxxx.H: unknown identifier
+*** WARNING C322 IN LINE 549 OF STC15Fxxxx.H: unknown identifier
+*** WARNING C322 IN LINE 551 OF STC15Fxxxx.H: unknown identifier
+   2          #define uchar unsigned char
+   3          #define MAIN_Fosc               22118400L
+   4          sbit led=P1^0;
+   5          sbit led1=P1^1;
+   6          sbit led2=P3^7;
+   7          sbit led3=P3^4;
+   8          void delay(unsigned int t)
+   9          {unsigned int i;
+  10   1         for(t;t>0;t--)
+  11   1         for(i=100;i>0;i--);
+  12   1                         }
+  13          main()
+  14          {unsigned int time=2000;
+  15   1      
+  16   1       while(1)
+  17   1       {led=~led;
+  18   2        delay(time);
+  19   2        led1=~led1;
+  20   2        delay(time);
+  21   2        led2=~led2;
+  22   2        delay(time);
+  23   2        led3=~led3;
+  24   2       }
+  25   1      }                                   
+  26          
+  27          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     57    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  7 WARNING(S),  0 ERROR(S)
